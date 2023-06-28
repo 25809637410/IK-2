@@ -1,0 +1,107 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100vh;
+}
+
+.header_ex {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  top: 0;
+  margin: 0 auto;
+  display: flex;
+}
+.header_ex .header {
+  width: 100%;
+  display: flex;
+}
+.header_ex .header .logo {
+  width: 220px;
+  height: 80px;
+  margin: 0 auto;
+  align-items: center;
+}
+.header_ex .header .logo a {
+  display: block;
+  width: 60px;
+  height: auto;
+  margin: 0 auto;
+}
+.header_ex .header .logo a img {
+  width: 90%;
+  height: auto;
+}
+.header_ex .header .lnb_wrap {
+  width: 1420px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.header_ex .header .lnb_wrap .lnb_menu_left {
+  width: 740px;
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  line-height: 80px;
+}
+.header_ex .header .lnb_wrap .lnb_menu_left > li a {
+  font-size: 15px;
+  font-weight: bold;
+}
+.header_ex .header .lnb_wrap .lnb_menu_left > lia:hover {
+  color: #FD8234;
+}
+.header_ex .header .lnb_wrap .lnb_menu_left .shop .shop_list {
+  left: 0;
+  transition: all 0.3s;
+}
+.header_ex .header .lnb_wrap .lnb_menu_right {
+  width: 460px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 80px;
+  position: absolute;
+  right: 0;
+}
+.header_ex .header .lnb_wrap .lnb_menu_right li {
+  font-weight: bold;
+  font-size: 15px;
+}
+.header_ex .header .lnb_wrap .lnb_menu_right li.search {
+  float: left;
+}
+.header_ex .header .lnb_wrap .lnb_menu_right li.search input {
+  width: 130px;
+  height: 25px;
+  border: none;
+  border-radius: 20px;
+  background-color: #FD8234;
+  color: #f8f8f8;
+  position: relative;
+}
+.header_ex .header .lnb_wrap .lnb_menu_right li.search i {
+  position: absolute;
+  top: 34px;
+  left: 100px;
+  color: #f8f8f8;
+}
+
+/*# sourceMappingURL=/header.6e55fa1a.css.map */

@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+  /*  font-family: 'Poppins', sans-serif; */
+}
+
+.container {
+  width: 100%;
+}
+.container .detail_wrap {
+  width: 100%;
+  float: left;
+}
+.container .detail_wrap .section_left {
+  width: 820px;
+}
+.container .detail_wrap .section_left .swiper_wrapper {
+  width: 100%;
+  height: 770px;
+}
+.container .detail_wrap .section_right {
+  position: fixed;
+  display: inline-block;
+  width: 600px;
+  overflow-y: scroll;
+  height: 100%;
+}/*# sourceMappingURL=detail.css.map */

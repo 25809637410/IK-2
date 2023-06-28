@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans KR", sans-serif;
+  /*  font-family: 'Poppins', sans-serif; */
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+.header_ex .header {
+  width: 1420px;
+  height: 80px;
+  margin: 0 auto;
+  display: flex;
+}
+.header_ex .header .logo {
+  width: 220px;
+  height: 80px;
+  display: block;
+}
+.header_ex .header .logo img {
+  width: 30%;
+  height: 90%;
+  display: block;
+  justify-items: center;
+}
+.header_ex .lnb_wrap {
+  width: 740px;
+  height: 80px;
+  margin: 0 auto;
+  position: relative;
+}
+.header_ex .lnb_wrap .lnb_menu {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  line-height: 80px;
+}
+.header_ex .lnb_wrap .lnb_menu_left {
+  width: 60%;
+  left: 0;
+}
+.header_ex .lnb_wrap .lnb_menu_right {
+  width: 30%;
+  right: 0;
+  line-height: 80px;
+}
+
+.visual_main {
+  position: relative;
+  height: 100vh;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.vmSwiper {
+  width: 100%;
+  height: 100%;
+}
+.vmSwiper > swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.vmSwiper swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.vmSwiper swiper-container {
+  margin-left: auto;
+  margin-right: auto;
+}/*# sourceMappingURL=main.css.map */

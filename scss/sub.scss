@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Noto Sans KR', sans-serif;
+  //font-family: 'Poppins', sans-serif;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #222;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+
+  .menu_box {
+    width: 100%;
+    height: 180px;
+    margin: 0 auto;
+    background-color: #D7CEBE;
+    padding: 30px 20px;
+
+    .cate_wrap {
+      width: 1432px;
+      height: auto;
+      margin: 0 auto;
+
+      .cate {
+        width: 96px;
+        float: left;
+        margin-right: 20px;
+
+        &last-child {
+          margin-right: 0;
+        }
+      }
+    }
+  }
+
+
+
+  a {
+    img {
+      width: 90px;
+      height: 90px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+  }
+
+  p {
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .path_wrap {
+    width: 1432px;
+    margin: 0 auto;
+    //padding-left: 100px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: flex-end;
+
+    p {
+      padding-top: 45px;
+      font-size: 14px;
+      font-weight: bold;
+      padding-left: 16px;
+      padding-right: 16px;
+
+      &:nth-child(1) {
+        padding-left: 0;
+      }
+    }
+  }
+}
+
+.product_wrap {
+  width: 1432px;
+  margin: 0 auto;
+
+
+  .cate {
+    width: 1432px;
+    padding: 35px 50px 30px 50px;
+
+    h2 {
+      font-size: 22px;
+      font-weight: bold;
+    }
+
+    .option {
+      float: right;
+      padding-bottom: 20px;
+      line-height: 30px;
+    }
+  }
+
+  .product .best_product {
+    width: 1432px;
+    display: flex;
+    flex-wrap: wrap;
+
+    .best_box {
+      width: 275px;
+      //height: 275px;
+      margin: 40px;
+      overflow: hidden;
+      box-sizing: border-box;
+
+      .img_box {
+        width: 275px;
+        height: 275px;
+        overflow: hidden;
+      }
+
+      img {
+        display: block;
+        width: 275px;
+        height: 275px;
+        overflow: hidden;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+
+      .txt_box {
+        width: 275px;
+        height: 85px;
+        //padding-bottom: 20px;
+
+        p {
+          font-size: 13px;
+          font-weight: normal;
+          text-align: left;
+          padding: 20px 10px 10px 20px;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+
+        span {
+          font-size: 14px;
+          font-weight: bold;
+          padding-left: 20px;
+        }
+      }
+    }
+
+  }
+
+}

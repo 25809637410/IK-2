@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IK_lighting_sub</title>
+
+    <link rel="stylesheet" href="./scss/sub.scss">
+
+    <script type="module" src="./js/sub.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+
+    <!--  fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css" />
+
+    <!-- jquery -->
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+</head>
+
+<body>
+    <div id="header"></div>
+
+    <div class="container">
+        <div class="path_wrap">
+            <p><a href="./index.html">home</a></p>
+            <i class="fas fa-chevron-right"></i>
+            <p><a href="./sub.html">shop</a></p>
+            <i class="fas fa-chevron-right"></i>
+            <p><a href="./sub.html">All</a></p>
+        </div>
+        <div class="menu_box">
+            <div class="cate_wrap">
+                <div class="cate">
+                    <a href="./sub.html">
+                        <img src="./images/sub_menu_01.png" alt="All">
+                        <p>All</p>
+                    </a>
+                </div>
+                <div class="cate">
+                    <a href="./sub.html"><img src="./images/sub_menu_01.png" alt="테이블 스탠드"></a>
+                    <p>IK 테이블 스탠드</p>
+                </div>
+                <div class="cate">
+                    <a href="#!"><img src="./images/sub_menu_02.png" alt="플로어 스탠드"></a>
+                    <p>IK 플로어 스탠드</p>
+                </div>
+                <div class="cate">
+                    <a href="#!"><img src="./images/sub_menu_03.png" alt="펜던트"></a>
+                    <p>IK 펜던트</p>
+                </div>
+                <div class="cate">
+                    <a href="#!"><img src="./images/sub_menu_04.png" alt="클래식 전구"></a>
+                    <p>클래식 전구</p>
+                </div>
+                <div class="cate">
+                    <a href="#!"><img src="./images/sub_menu_05.png" alt="장식용 전구"></a>
+                    <p>장식용 전구</p>
+                </div>
+                <div class="cate">
+                    <a href="#!"><img src="./images/sub_menu_06.png" alt="삼파장 전구"></a>
+                    <p>삼파장 전구</p>
+                </div>
+                <div class="cate">
+                    <a href="#!"><img src="./images/sub_menu_07.png" alt="가드닝 전구"></a>
+                    <p>가드닝 전구</p>
+                </div>
+                <div class="cate">
+                    <a href="#!"><img src="./images/sub_menu_08.png" alt="할로겐 전구"></a>
+                    <p>할로겐 전구</p>
+                </div>
+                <div class="cate">
+                    <a href="#!"><img src="./images/sub_menu_09.png" alt="산업용 전구"></a>
+                    <p>산업용 전구</p>
+                </div>
+                <div class="cate">
+                    <a href="#!"><img src="./images/sub_menu_10.png" alt="크립톤 전구"></a>
+                    <p>크립톤 전구</p>
+                </div>
+                <div class="cate">
+                    <a href="#!"><img src="./images/sub_menu_11.png" alt="LED 전구"></a>
+                    <p>LED 전구</p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="product_wrap">
+            <div class="cate">
+                <h2 class="page_title">모두 보기</h2>
+                <div class="option">
+                    <div class="option_sort">
+                        <select name="selArray" id="selArray" class="option_list">
+                            <option>정렬방식</option>
+                            <option value="new">신상품순</option>
+                            <option value="best">베스트순</option>
+                            <option value="name">상품명</option>
+                            <option value="low">낮은 가격순</option>
+                            <option value="high">높은 가격순</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="product">
+                <section class="best_product"></section>
+            </div>
+            <div class="pagination_container">
+                <div class="prev_btn"><i class="fa-solid fa-angle-left"></i></div>
+                <div class="number_btn_wrap"><span class="number_btn">1</span></div>
+                <div class="next_btn"><i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+
+        </div>
+        <div id="footer"></div>
+
+
+
+    </div>
+
+    <script>
+        $(function () {
+            //$('#header').load("header.html");
+            $('#footer').load("footer.html");
+        })
+    </script>
+</body>
+
+</html>
