@@ -141,6 +141,19 @@ var detailSwiper = new Swiper('.detail_swiper', {
 });
 
 /* -------- sticky_tab -------- */
+
+/* -------- add_swiper -------- */
+var addSwiper = new Swiper('.add_swiper', {
+  loop: true,
+  pagination: {
+    el: '.swiper-pagination'
+  },
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev'
+  }
+});
 },{}],"node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
 var OVERLAY_ID = '__parcel__error__overlay__';

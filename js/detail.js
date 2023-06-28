@@ -13,7 +13,7 @@ let detailSwiper = new Swiper('.detail_swiper', {
       return '<span class="' + className + '">' + '</span>';
     },
   }, //pagination
-  
+
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
@@ -21,3 +21,19 @@ let detailSwiper = new Swiper('.detail_swiper', {
 });
 
 /* -------- sticky_tab -------- */
+
+/* -------- add_swiper -------- */
+let addSwiper = new Swiper('.add_swiper', {
+  loop: true,
+
+  pagination: {
+    el: '.swiper-pagination',
+  },
+
+  // Navigation arrows
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+
+})
